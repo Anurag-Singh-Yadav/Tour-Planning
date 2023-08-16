@@ -8,7 +8,7 @@ function Btn(props){
     }
     return (
         <div className="flex justify-center items-center">
-            <button className="btn" onClick={notInterest}>Not Interseted</button>
+            <button className="btn" onClick={notInterest}>{props.content}</button>
         </div>
     )
 }

@@ -3,18 +3,22 @@ import ImgBox from "./Imgbox.js";
 import Price from "./Price.js";
 import Disce from "./Info.js";
 import Btn from "./Btn.js";
+import Interset from "./Interset.js";
 // import Tour from "./Tour.js";
 function Card(props) {
   // console.log(props);
   return (
-    <div>
-      
-      <div>
-        <div className="flex flex-col flex-wrap w-[350px] min-h-[330] card">
-          <ImgBox image={props.image}></ImgBox>
+    <div className="main-card">
+      <div className="flex flex-col flex-wrap w-[350px] min-h-[330] card">
+        <ImgBox image={props.image}></ImgBox>
+        <div className="bg-[#4F709C] px-2">
           <Price price={props.price} place={props.place}></Price>
           <Disce info={props.info}></Disce>
-          <Btn remove={props.remove} id={props.id}></Btn>
+          <div className="flex justify-between items-center">
+            <Btn remove={props.remove} content={"Not Interseted"} id={props.id}></Btn>
+            {/* <Interset></Interset> */}
+            <Btn content={"Ready"}></Btn>
+          </div>
         </div>
       </div>
     </div>
