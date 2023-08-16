@@ -3,7 +3,6 @@ import ImgBox from "./Imgbox.js";
 import Price from "./Price.js";
 import Disce from "./Info.js";
 import Btn from "./Btn.js";
-import Interset from "./Interset.js";
 // import Tour from "./Tour.js";
 function Card(props) {
   // console.log(props);
