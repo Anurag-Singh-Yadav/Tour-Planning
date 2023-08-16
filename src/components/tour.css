@@ -1,0 +1,12 @@
+.tour{
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    border: rgba(0, 0, 255, 0.502) dashed 3px;
+    padding: 8px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-block: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

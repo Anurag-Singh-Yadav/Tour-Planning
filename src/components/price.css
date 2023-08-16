@@ -1,0 +1,12 @@
+.price{
+    font-size: larger;
+    font-weight: 600;
+}
+.place{
+    font-size: x-large;
+    font-weight: bold;
+    color:green;
+}
+.goto{
+    margin-block:10px ;
+}

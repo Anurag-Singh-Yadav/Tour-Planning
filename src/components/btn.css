@@ -1,0 +1,17 @@
+.btn{
+    font-size: 1.5rem;
+    background-color: rgba(238, 77, 77, 0.434);
+    padding: 4px;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 600;
+    margin-block: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.719);
+    color: white !important;
+}
